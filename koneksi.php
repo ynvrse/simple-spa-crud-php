@@ -1,8 +1,7 @@
 <?php
 
-$database = 'latihan_crud';
+$database = 'ynvrse_crud_db';
 
-// Buat koneksi ke MySQL tanpa memilih database terlebih dahulu
 $conn = new mysqli('localhost', 'root', '');
 
 if ($conn->connect_error) {
